@@ -1,5 +1,6 @@
 
 
+
 document.querySelector('h1').onclick = function() {
     alert('ouch that hurts ');
 }
@@ -16,13 +17,22 @@ myImage1.onclick = function() {
     }
 }
 
-var div1 = document.getElementById("logo");
-var align = div1.getAttribute("id");
+
  
 var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 
+var thefuture = document.getElementById("where");
 
+thefuture.onclick =function(){
+	var pass = prompt('what do you see'); 
+	if(pass === 'fatshit') {
+      window.location.assign("http://cameronfeder.com/right");
+  
+	  
+    }
+}
+ 
 function setUserName() {
   var myName = prompt('Please enter your name.'); 
   while (myName !== 'cameron'){
@@ -30,10 +40,12 @@ function setUserName() {
 		window.location.assign("http://cameronfeder.com/wrong");
 
 }
-localStorage.setItem('name', myName);
-myHeading.textContent = 'Cameron is cool, ' + myName;
+
+
 	
-} 
+}
+
+
 
 if(!localStorage.getItem('name')) {
   setUserName();

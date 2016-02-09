@@ -16,8 +16,8 @@ h1 {
 
 p{
   font-size: 16px;    
-  line-height: 1;
-  letter-spacing: 1px;
+
+
 }
 li{
 	font-size: 24px;    
@@ -28,8 +28,18 @@ color: #F2F2F2;
   text-shadow: 2px 3px 1px black;
 }
 
+ 
+
+h2, h3, h4, h5, #where {
+	text-shadow: 2px 2px 4px #999;
+	text-align: center;
+	margin: auto;
+	color: #333;
+	font-size: 24px; 
+}
+
 body {
-  width: 600px;
+  width: 1000px;
   margin: 0 auto;
   background-color: #AAD5E3;
   padding: 0 20px 20px 20px;
@@ -37,17 +47,18 @@ body {
 }
 
 img {
-  display: block;
+  display: inline;
   margin: 0px 10px ;
   padding: 0px 0px 0px 20px;
-  width: 25%;
+ 
 }
 
 
 #logo {
   
-  display: block;
+  display: inline;
   margin: 0px 10px ;
   padding: 0px 0px 0px 20px;
   width: 25%
 }
+
