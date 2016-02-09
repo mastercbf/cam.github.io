@@ -25,9 +25,10 @@ var myHeading = document.querySelector('h1');
 
 function setUserName() {
   var myName = prompt('Please enter your name.'); 
-  while (myName!=='cameron'){
+  while (myName !== 'cameron'){
 		alert('Permission Denied');
-		var myName = prompt('Please enter your name.'); 
+		window.location.assign("http://cameronfeder.com/wrong");
+
 }
 localStorage.setItem('name', myName);
 myHeading.textContent = 'Cameron is cool, ' + myName;
