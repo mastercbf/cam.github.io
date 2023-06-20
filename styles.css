@@ -7958,6 +7958,8 @@ textarea.form-control-lg {
 
 .fw-bold {
   font-weight: 700 !important;
+  align-items:center
+
 }
 
 .fw-semibold {
@@ -10786,6 +10788,10 @@ textarea.form-control-lg {
   }
   .fs-2 {
     font-size: 3.5rem !important;
+
+    align-items:center;
+    /*line-break: anywhere*/;
+}
   }
   .fs-3 {
     font-size: 2rem !important;
