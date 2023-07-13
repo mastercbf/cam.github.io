@@ -30,25 +30,25 @@ a {
 #navbar {
   background: #384ebd;
   color: rgb(13, 26, 38);
-  position: fixed;
+  position: center;
   top: 0;
   height: 50px;
   line-height: 60px;
-  width: 100vw;
-  z-index: 10;
+  width: auto;
+  z-index: auto;
 }
 
 .nav-wrapper {
   margin: auto;
   text-align: center;
-  width: 70%;
-} @media(max-width: 768px) {
+  width: 100%;
+} @media(max-width: 7680px) {
     .nav-wrapper {
-      width: 50%;
+      width: 100%;
     }
-  } @media(max-width: 638px) {
+  } @media(max-width: 6380px) {
       .nav-wrapper {
-        width: 50%;
+        width: 100%;
       }
     }
 
@@ -71,7 +71,7 @@ a {
   float: right;
   list-style: none;
   /* margin-right: 14px; */
-  margin-top: -2px;
+  margin-top: auto;
   text-align: right;
   transition: transform 0.5s ease-out;
   -webkit-transition: transform 0.5s ease-out;
@@ -96,7 +96,7 @@ a {
   font-size: 0.7em;
   height: 70px;
   letter-spacing: 1px;
-  margin: 0 20px;
+  margin: 0 0px;
   padding: 0 4px;
   position: relative;
   text-decoration: none;
